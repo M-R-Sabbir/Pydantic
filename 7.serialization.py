@@ -49,4 +49,4 @@ temp = patient_1.model_dump(exclude={"address":["state"]})
 print(temp)
 
 # another parameter is (exclude_unset=True)
-# which are set by default user don't pass data, that won't be exported
+# which are set by default user don't pass data, that won't be exported.
